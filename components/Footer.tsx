@@ -34,7 +34,7 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-semibold mb-4">Contact</h4>
           <ul className="space-y-2 text-sm">
-            <li>Email: support@eliftech.co.za</li>
+            <li>Email: info@eliftech.co.za</li>
             <li>Strategy Calls Available</li>
             <li>Remote & South Africa Based</li>
           </ul>
