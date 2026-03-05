@@ -5,7 +5,7 @@ export default function CTA() {
     <div className="flex justify-center">
       <Link
         href="/contact"
-        className="bg-black text-white px-8 py-3 rounded-lg font-semibold hover:opacity-80 transition"
+        className="inline-block bg-gradient-to-r from-indigo-500 to-purple-500 px-8 py-4 rounded-2xl font-medium text-white shadow-lg hover:opacity-90 transition"
       >
         Get a Free Consultation
       </Link>
