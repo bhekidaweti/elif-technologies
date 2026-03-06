@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import StrategyCallButton from "@/components/StrategyCallButton";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://eliftechnologies.co.za"),
@@ -68,6 +69,7 @@ export default function RootLayout({ children }: Props) {
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />
+        <StrategyCallButton />
       </body>
     </html>
   );
